@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/amtTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/amtTV" />
+
+    <EditText
+        android:id="@+id/amtET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="@string/amtET" />
+
+    <TextView
+        android:id="@+id/paxTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paxTV" />
+
+    <EditText
+        android:id="@+id/paxET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/paxET" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/svsTB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/svsTB"
+            android:textOff="NO SVS"
+            android:textOn="SVS" />
+
+        <ToggleButton
+            android:id="@+id/gstTB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/gstTB"
+            android:textOff="NO GST"
+            android:textOn="GST" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/discTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discTV" />
+
+    <EditText
+        android:id="@+id/discET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/discET" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/cashRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/cashRB" />
+
+        <RadioButton
+            android:id="@+id/pnRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/pnRB" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/splitBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/splitBT" />
+
+        <Button
+            android:id="@+id/resetBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/resetBT" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/totalTV" />
+
+    <TextView
+        android:id="@+id/eachTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eachTV" />
+</LinearLayout>

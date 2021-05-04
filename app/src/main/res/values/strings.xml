@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bill Please</string>
+    <string name="amtTV">Amount</string>
+    <string name="amtET" />
+    <string name="paxTV">Num of Pax</string>
+    <string name="paxET" />
+    <string name="svsTB" />
+    <string name="gstTB" />
+    <string name="discTV">Discount (%)</string>
+    <string name="discET" />
+    <string name="cashRB">Cash</string>
+    <string name="pnRB">PayNow</string>
+    <string name="splitBT">Split</string>
+    <string name="resetBT">Reset</string>
+    <string name="totalTV" />
+    <string name="eachTV" />
+</resources>
